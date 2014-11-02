@@ -14,13 +14,15 @@
 		32A04A101A06A080000793BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A04A0F1A06A080000793BB /* main.m */; };
 		32A04A141A06A080000793BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A04A131A06A080000793BB /* AppDelegate.m */; };
 		32A04A171A06A080000793BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A04A151A06A080000793BB /* Main.storyboard */; };
-		32A04A1A1A06A080000793BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A04A191A06A080000793BB /* ViewController.m */; };
 		32A04A1C1A06A080000793BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A04A1B1A06A080000793BB /* Images.xcassets */; };
 		32A04A231A06A080000793BB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A04A221A06A080000793BB /* XCTest.framework */; };
 		32A04A241A06A080000793BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A04A031A06A07F000793BB /* Foundation.framework */; };
 		32A04A251A06A080000793BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A04A071A06A07F000793BB /* UIKit.framework */; };
 		32A04A2D1A06A080000793BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32A04A2B1A06A080000793BB /* InfoPlist.strings */; };
 		32A04A2F1A06A080000793BB /* Test_TaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A04A2E1A06A080000793BB /* Test_TaskTests.m */; };
+		32A04A3C1A06A0B5000793BB /* DSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A04A391A06A0B5000793BB /* DSCell.m */; };
+		32A04A3D1A06A0B5000793BB /* DSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A04A3B1A06A0B5000793BB /* DSViewController.m */; };
+		32A04A3F1A06A19C000793BB /* colors.xml in Resources */ = {isa = PBXBuildFile; fileRef = 32A04A3E1A06A19C000793BB /* colors.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,17 @@
 		32A04A121A06A080000793BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		32A04A131A06A080000793BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		32A04A161A06A080000793BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		32A04A181A06A080000793BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		32A04A191A06A080000793BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		32A04A1B1A06A080000793BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		32A04A211A06A080000793BB /* Test_TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A04A221A06A080000793BB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		32A04A2A1A06A080000793BB /* Test_TaskTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test_TaskTests-Info.plist"; sourceTree = "<group>"; };
 		32A04A2C1A06A080000793BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		32A04A2E1A06A080000793BB /* Test_TaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_TaskTests.m; sourceTree = "<group>"; };
+		32A04A381A06A0B5000793BB /* DSCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCell.h; sourceTree = "<group>"; };
+		32A04A391A06A0B5000793BB /* DSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCell.m; sourceTree = "<group>"; };
+		32A04A3A1A06A0B5000793BB /* DSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSViewController.h; sourceTree = "<group>"; };
+		32A04A3B1A06A0B5000793BB /* DSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
+		32A04A3E1A06A19C000793BB /* colors.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = colors.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +117,14 @@
 		32A04A091A06A07F000793BB /* Test_Task */ = {
 			isa = PBXGroup;
 			children = (
+				32A04A3E1A06A19C000793BB /* colors.xml */,
+				32A04A381A06A0B5000793BB /* DSCell.h */,
+				32A04A391A06A0B5000793BB /* DSCell.m */,
+				32A04A3A1A06A0B5000793BB /* DSViewController.h */,
+				32A04A3B1A06A0B5000793BB /* DSViewController.m */,
 				32A04A121A06A080000793BB /* AppDelegate.h */,
 				32A04A131A06A080000793BB /* AppDelegate.m */,
 				32A04A151A06A080000793BB /* Main.storyboard */,
-				32A04A181A06A080000793BB /* ViewController.h */,
-				32A04A191A06A080000793BB /* ViewController.m */,
 				32A04A1B1A06A080000793BB /* Images.xcassets */,
 				32A04A0A1A06A07F000793BB /* Supporting Files */,
 			);
@@ -231,6 +239,7 @@
 				32A04A1C1A06A080000793BB /* Images.xcassets in Resources */,
 				32A04A0E1A06A07F000793BB /* InfoPlist.strings in Resources */,
 				32A04A171A06A080000793BB /* Main.storyboard in Resources */,
+				32A04A3F1A06A19C000793BB /* colors.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A04A1A1A06A080000793BB /* ViewController.m in Sources */,
 				32A04A141A06A080000793BB /* AppDelegate.m in Sources */,
+				32A04A3C1A06A0B5000793BB /* DSCell.m in Sources */,
+				32A04A3D1A06A0B5000793BB /* DSViewController.m in Sources */,
 				32A04A101A06A080000793BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

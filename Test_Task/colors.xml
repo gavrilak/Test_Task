@@ -1,0 +1,15 @@
+<colors>
+    <color name="Red" color="#FFC00000"/>
+	<color name="Firebrick" color="#FFCD2626"/>
+	<color name="Indian_red" color="#FFCD5C5C"/>
+    <color name="Orange_red" color="#FFFF4500"/>
+	<color name="Gold" color="#FFFFD700"/>
+    <color name="Green_yellow" color="#FFADFF2F"/>
+	<color name="Olive_drab" color="#FFB3EE3A"/>
+	<color name="Lime" color="#FF00FF00"/>
+    <color name="Light_sea_green" color="#FF20B2AA"/>
+    <color name="Slate_blue" color="#FF007FFF"/>
+    <color name="New_midnight_blue" color="#FF00009C"/>
+	<color name="Dark_purple" color="#FF871F78"/>
+    <color name="Purple" color="#FF800080"/>
+</colors>
