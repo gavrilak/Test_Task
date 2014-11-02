@@ -16,8 +16,7 @@
         cell.backgroundView.backgroundColor = self.color;
         cell.textLabel.textColor = [UIColor darkGrayColor];
     }
-    else
-    {
+    else {
         cell.backgroundView.backgroundColor = [UIColor darkGrayColor];
         cell.textLabel.textColor = self.color;
     }

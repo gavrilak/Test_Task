@@ -127,8 +127,7 @@
     curentDSCell.isSelected = !curentDSCell.isSelected;
     cell = [curentDSCell setColorsforCell:cell];
     
-    [tableView beginUpdates];
-    
+    [tableView beginUpdates];   
     [tableView endUpdates];
     
 }
