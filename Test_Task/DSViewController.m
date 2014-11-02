@@ -20,8 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
+        
     UIEdgeInsets inset = UIEdgeInsetsMake(20, 0, 0, 0);
     self.tableView.contentInset = inset;
     self.tableView.scrollIndicatorInsets = inset;
@@ -52,7 +51,7 @@
     if ([elementName isEqualToString:@"color"] ){
         DSCell *currentDSCell = [[DSCell alloc]init];
         currentDSCell.name = [attributeDict objectForKey:@"name"];
-        NSString *noHashString =[[attributeDict objectForKey:@"color"] stringByReplacingOccurrencesOfString:@"#" withString:@""];
+        NSString *noHashString =[[attributeDict objectForKey:@"color"]stringByReplacingOccurrencesOfString:@"#" withString:@""];
         NSScanner *scanner = [NSScanner scannerWithString:noHashString];
         if([scanner scanHexInt:&hex]){
             alpha = (hex>>24) & 0xFF;
@@ -88,7 +87,6 @@
     
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
-        
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         
         CALayer *layer = [[CALayer alloc]init];
@@ -100,7 +98,6 @@
     DSCell *curentDSCell = (DSCell*)[colorsDSCells objectAtIndex:[indexPath section]];
     cell = [curentDSCell setColorsforCell:cell];
     cell.textLabel.text = curentDSCell.name;
-    
     
     return cell;
 }

@@ -12,7 +12,7 @@
 
 - (UITableViewCell*) setColorsforCell:(UITableViewCell*)  cell {
     
-    if (  self.isSelected) {
+    if (self.isSelected) {
         cell.backgroundView.backgroundColor = self.color;
         cell.textLabel.textColor = [UIColor darkGrayColor];
     }
